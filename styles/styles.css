@@ -103,9 +103,29 @@ footer a:hover{
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
 
+header{
+    background-color: #E5AF42;
+    height: 150px;
+    margin-bottom: 25px;
+    
+}
 
+header img{
+    width: 100px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+header h1{
+    text-align: center;
+}
 
-
+footer{
+    margin-top: 50px;
+    height: 60px;
+    font-weight: 200;
+    align-items: center;
+}
 
 
 /************* index page *************/
@@ -118,9 +138,26 @@ footer a:hover{
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
 
+.index img{
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
 
+.index h2{
+    line-height: 36px;
+    
+}
 
+.index p{
+    margin-bottom: 12px;
+}
 
+.index .fake-button{
+    width: 250px;
+    /* still need to add 150px of space */
+    margin: auto;
+}
 
 
 /************* bookings page *************/
@@ -138,12 +175,39 @@ footer a:hover{
 */
 
 
+.booking-page{
+    width: 600px;
+    margin: auto;
+    font-size: 18px;
+    
+}
 
+.day-selector{
+    margin-bottom: 12px;
+    gap: 20px;
+}
 
+.day-selector li{
+    width: 60px;
+    border: 1px solid black;
+}
 
+.small-button{
+    border: 1px solid black;
+    padding: 5px;
+}
+.top-margin{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
 
+#clear-button{
+    width: 200px;
+}
 
-
+.clicked{
+    background-color: #E5AF42;
+}
 
 
 
@@ -158,6 +222,34 @@ footer a:hover{
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 
+.contact{
+    height: 420px;
+    align-content: center;
+    
+}
 
+.contact label{
+    width: 150px;
+    text-align: right;
+    
+}
 
+.contact input{
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
 
+form .flex{
+    align-content: center;
+    gap: 24px;
+
+}
+
+textarea{
+    height: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form button{
+    font-family: 'Montserrat', sans-serif;
+}
