@@ -124,7 +124,9 @@ footer{
     margin-top: 50px;
     height: 60px;
     font-weight: 200;
-    align-items: center;
+    text-align: center;
+    background-color: #E5AF42;
+    padding: 15px;
 }
 
 
@@ -179,6 +181,7 @@ footer{
     width: 600px;
     margin: auto;
     font-size: 18px;
+    text-align: center;
     
 }
 
@@ -203,12 +206,15 @@ footer{
 
 #clear-button{
     width: 200px;
+    margin: auto;
 }
 
 .clicked{
     background-color: #E5AF42;
 }
-
+.day-selector{
+    justify-content: center;
+}
 
 
 
@@ -226,6 +232,7 @@ footer{
     height: 420px;
     align-content: center;
     
+    
 }
 
 .contact label{
@@ -237,19 +244,34 @@ footer{
 .contact input{
     width: 300px;
     font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
 }
 
 form .flex{
-    align-content: center;
+    justify-content: center;
     gap: 24px;
 
 }
 
 textarea{
     height: 150px;
+    width: 300px;
     font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
 }
 
 form button{
     font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    width: 305px;
+    margin-left: 410px;}
+
+.contact h2{
+    text-align: center;
 }
