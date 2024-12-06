@@ -7,7 +7,7 @@ let submitBtn = document.getElementById("submit-button");
 
 
 function Submitting(){
-    let mainText = document.getElementById("contact-page")
+    let mainText = document.getElementById("contact-page");
     // alert(mainText.innerHTML)
     // mainText.style.visibility = "hidden";
     let thankYou = document.createElement("p");
@@ -16,8 +16,8 @@ function Submitting(){
     // alert(thankYou.innerHTML)
     // document.body.append(thankYou)
     mainText.innerHTML = thankYou.innerHTML;
-    mainText.style.textAlign = "center"
-    mainText.style.alignContent = "flex-start"
+    mainText.style.textAlign = "center";
+    mainText.style.alignContent = "flex-start";
 }
 
 submitBtn.addEventListener("click", Submitting);
